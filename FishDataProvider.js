@@ -1,8 +1,99 @@
 const fishCollection = [
     {
+        image:
+        name: "Big Blue",
+        species: "Male Beta",
+        length: "2 inches",
+        food: "Flies",
+        harvestLocation "Beaches of Walmart"
+    },
+
+    {
+        image:
+        name: "Medium Orange",
+        species: "Female Beta",
+        length: "4 inches",
+        food: "Sea Bugs",
+        harvestLocation "Tahiti"
+    },
+
+    {
+        image:
         name: "Bart",
-        food: "crustaceans"
-    }
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+    {
+        image:
+        name: "Bart",
+        species: "Simpsonius",
+        length: "5 inches",
+        food: "crustaceans",
+        harvestLocation "Springfield"
+    },
+
+
+
+
+
+
+
 
 
 ]
