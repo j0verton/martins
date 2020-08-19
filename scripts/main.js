@@ -8,6 +8,10 @@ for (const fish of allTheFish) {
     
 }
 
+// Import the FishList here
+import {FishList} from './FishList.js';
+
+FishList()
 
 // for (const fish of fishCollection) {
 //     let fishCard = `<div><img src=${fish.image}></div><ul>`;

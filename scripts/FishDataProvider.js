@@ -4,7 +4,7 @@ const fishCollection = [
         name: "Big Blue",
         species: "Male Beta",
         length: "2 inches",
-        food: "Flies",
+        diet: "Flies",
         harvestLocation: "Beaches of Walmart",
     },
     {
@@ -12,7 +12,7 @@ const fishCollection = [
         name: "Medium Orange",
         species: "Female Beta",
         length: "4 inches",
-        food: "Sea Bugs",
+        diet: "Sea Bugs",
         harvestLocation: "Tahiti"
     },
     {
@@ -20,7 +20,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -28,7 +28,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield",
     },
     {
@@ -36,7 +36,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -44,7 +44,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -52,7 +52,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -60,7 +60,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -68,7 +68,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
@@ -76,108 +76,121 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: "5 inches",
-        food: "crustaceans",
+        diet: "crustaceans",
         harvestLocation: "Springfield"
     },
     {
-		givenName: "Bart",
-		size: "5 inches",
+        image:"",
+        name: "Bart",
+		length: "5 inches",
 		diet: "crustaceans",
 		species: "Clownfish",
 		harvestLocation: "Petco"
 	},
 	{
-		givenName: "Big Mac",
-		size: "6 feet",
+        image:"",
+        name: "Big Mac",
+		length: "6 feet",
 		diet: "jellyfish",
 		species: "Giant sunfish",
 		harvestLocation: "Sam's Club Reef"
 	},
 	{
-		givenName: "Squigle",
-		size: "2 feet",
+		name: "Squigle",
+		length: "2 feet",
 		diet: "smaller fish",
 		species: "Moray Eel",
 		harvestLocation: "Ole Dan's boat wreck"
 	},
 	{
-		givenName: "Hammy",
-		size: "4 feet",
+        image:"",
+		name: "Hammy",
+		length: "4 feet",
 		diet: "just about everything",
 		species: "Groupers",
 		harvestLocation: "Jimmy's big boi fishin' spot"
 	},
 	{
-		givenName: "Tiny",
-		size: "1 inch",
+        image:"",
+		name: "Tiny",
+		length: "1 inch",
 		diet: "plankton",
 		species: "Blue Chromis",
 		harvestLocation: "Young Dan's boat wreck",
     },
     {
-        givenName: "The Situation",
+        image:"",
+        name: "The Situation",
         species: "New Jersey Gutter Fish",
-        length: 3.4,
+        length: "1 inch",
         diet: "Creatine",
         harvestLoc: "New Jersey",
     },
     {
+        image:"",
         species: "Gem Tang",
-        givenName: "Diamond",
-        length: "6 cm",
+        name: "Diamond",
+        length: "6 in",
         diet: "Algae Strips",
         havestLocation: "South Africa",
     },
     {
+        image:"",
         species: "Black Tang",
-        givenName: "Midnight",
+        name: "Midnight",
         length: "1 inch",
         diet: "Vegetation",
         havestLocation: "Croatia",
     },
     {
+        image:"",
         species: "Crosshatch Triggerfish",
-        givenName: "Itchy",
+        name: "Itchy",
         length: "7 ft",
         diet: "Micronutrients",
         havestLocation: "Blue Hole"
     },
     {
+        image:"",
         species: "Candy Basslet",
-        givenName: "Cherry",
+        name: "Cherry",
         length: "3 cm",
         diet: "Algae",
         havestLocation: "Brazil"
     },
     {
+        image:"",
         species: "Japanese Interruptus Angelfish",
-        givenName: "Rainbow",
+        name: "Rainbow",
         length: "2 ft",
         diet: "Fish pellets",
         havestLocation: "South Africa"
     },
     {
+        image:"",
         species: "Clarion Angelfish",
-        givenName: "Banana Stripe",
+        name: "Banana Stripe",
         length: "11 cm",
         diet: "Micronutrients",
         havestLocation: "Antiqua"
     },
     {
         species: "Wrought Iron Butterfly",
-        givenName: "Zebra",
+        name: "Zebra",
         length: "10 in",
         diet: "Crustaceans",
         havestLocation: "Croatia"
     },
     {
+        image:"",
         species: "Neptune Grouper",
-        givenName: "Squigy",
+        name: "Squigy",
         length: "1 ft",
         diet: "Algae",
         havestLocation: "Bahamas"
     },
     {
+        image:"",
         name: "Nemo",
         species: "Clownfish",
         length: "1.5 inches",
@@ -185,6 +198,7 @@ const fishCollection = [
         harvestLocation: "Orlando, FL"
     },
     {
+        image:"",
         name: "Torch",
         species: "Flame Angelfish",
         length: "3 inches",
@@ -192,6 +206,7 @@ const fishCollection = [
         harvestLocation: "San Jose, CA"
     },
     {
+        image:"",
         name: "Rocky",
         species: "Blue Damselfish",
         length: "2 inches",
@@ -199,6 +214,7 @@ const fishCollection = [
         harvestLocation: "Destin, FL"
     },
     {
+        image:"",
         name: "Rudy",
         species: "Copperband Butterflyfish",
         length: "5 inches",
@@ -206,6 +222,7 @@ const fishCollection = [
         harvestLocation: "Costa Rica"
     },
     {
+        image:"",
         name: "Simba",
         species: "Lionfish",
         length: "6 inches",
@@ -213,6 +230,7 @@ const fishCollection = [
         harvestLocation: "Argentina"
     },
     {
+        image:"",
         name: "Mr. Freeze",
         species: "Blue Tang",
         length: "6 inches",
@@ -220,6 +238,7 @@ const fishCollection = [
         harvestLocation: "Costa Rica"
     },
     {
+        image:"",
         name: "Frodo",
         species: "Yellow Tang",
         length: "4 inches",
@@ -227,6 +246,7 @@ const fishCollection = [
         harvestLocation: "Honolulu, HI"
     },
     {
+        image:"",
         species: "Goldfish",
         length: 15,
         diet: "Fish Food",
@@ -235,6 +255,7 @@ const fishCollection = [
         image: "images/goldfish.jpg"
     },
     {
+        image:"",
         species: "Rainbow Trout",
         length: 44,
         diet: "Fish Food",
@@ -243,6 +264,7 @@ const fishCollection = [
         image: "images/trout.jpg"
     },
     {
+        image:"",
         species: "Bluegill",
         length: 20,
         diet: "Fish Food",
@@ -313,7 +335,7 @@ const fishCollection = [
             alt: "Beautiful Blue Fish"
         },
         name: "Bart",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Sonifis",
         length: "4 foot, 8 inches",
         harvestLocation: "Springfield"
@@ -325,7 +347,7 @@ const fishCollection = [
             alt: "Beautiful Orange Fish"
         },
         name: "Homer",
-        food: "beer",
+        diet: "beer",
         species: "Popifis",
         length: "6 foot",
         harvestLocation: "Springfield"
@@ -337,7 +359,7 @@ const fishCollection = [
             alt: "Beautiful Pink Fish"
         },
         name: "Marge",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Momifis",
         length: "6 foot, 1 inch",
         harvestLocation: "Springfield"
@@ -349,7 +371,7 @@ const fishCollection = [
             alt: "Beautiful Rainbow Fish"
         },
         name: "Lisa",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Daughtifis",
         length: "4 foot, 6 inches",
         harvestLocation: "Springfield"
@@ -361,7 +383,7 @@ const fishCollection = [
             alt: "Beautiful Yellow-Blue Fish"
         },
         name: "Maggie",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Babifis",
         length: "1 foot, 6 inches",
         harvestLocation: "Springfield"
@@ -373,7 +395,7 @@ const fishCollection = [
             alt: "Beautiful Yellow-White Fish"
         },
         name: "Lucky Number Seven",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Dogifis",
         length: "3 foot, 9 inches",
         harvestLocation: "Springfield"
@@ -385,7 +407,7 @@ const fishCollection = [
             alt: "Beautiful Silver Fish"
         },
         name: "Moe",
-        food: "crustaceans",
+        diet: "crustaceans",
         species: "Friendifis",
         length: "5 foot, 10 inches",
         harvestLocation: "Springfield"
@@ -394,48 +416,48 @@ const fishCollection = [
         name: "Big Blue",
         species: "Male Beta",
         length: "2 inches",
-        food: "Flies",
+        diet: "Flies",
         location: "Beaches of Walmart",
     },
     {
         name: "Blorpy",
         species: "Blob Fish",
         length: "2 feet",
-        food: "Sea Urchins",
+        diet: "Sea Urchins",
         location: "Deep Darkness",
     },
     {
         name: "Life of the Party (nickname Part)",
         species: "Crazinus Fishifus",
         length: "5 inches",
-        food: "algae",
+        diet: "algae",
         location: "Beaches of Walmart",
     },
     {
         name: "Buford",
         species: "Male Dopey Fish",
         length: "22 inches",
-        food: "Diet Fish Kibble",
+        diet: "Diet Fish Kibble",
         location: "Gerrys Air Balloon and Fish Emporium",
     },
     {
         name: "Fish Eater",
         species: "Who knows?",
         length: "1 inch",
-        food: "Other fish",
+        diet: "Other fish",
         location: "Lake",
     },
     {
         name: "Marlin",
         species: "Male Clown Fish",
         length: "2 inches",
-        food: "Tears",
+        diet: "Tears",
         location: "P. Sherman, 42 Wallaby Way, Sydney",
     },
     {
         image: "images/BlueFish.jpeg",
         imageAlt: "Beautiful Blue Fish",
-        givenName: "Guppi Goldenberg",
+        name: "Guppi Goldenberg",
         species: "Pleebon Flounder",
         length: "2 inches",
         diet: "Turtle Turds",
@@ -444,7 +466,7 @@ const fishCollection = [
     {
         image: "images/GreenFish.jpeg",
         imageAlt: "Green",
-        givenName: "Sushi",
+        name: "Sushi",
         species: "Male Beta",
         length: "2 inches",
         diet: "Flies",
@@ -453,7 +475,7 @@ const fishCollection = [
     {
         image: "images/NemoFish.jpeg",
         imageAlt: "Nemo NOT Touching The Butt",
-        givenName: "Nemo",
+        name: "Nemo",
         species: "Clown Fish",
         length: "3 inches minus one fin",
         diet: "Kelp",
@@ -462,7 +484,7 @@ const fishCollection = [
     {
         image: "images/NeonFish.jpeg",
         imageAlt: "Party Neon Fish",
-        givenName: "James Pond",
+        name: "James Pond",
         species: "Party Fish",
         length: "69cm",
         diet: "Peanut Butter",
@@ -471,7 +493,7 @@ const fishCollection = [
     {
         image: "images/PinkFish.jpeg",
         imageAlt: "Pretty in Pink Fish",
-        givenName: "Ann Chovy",
+        name: "Ann Chovy",
         species: "Dancing Queen",
         length: "9 feet",
         diet: "McChickens",
@@ -480,7 +502,7 @@ const fishCollection = [
     {
         image: "images/SwayFish.jpeg",
         imageAlt: "Sway Fishie",
-        givenName: "Phish Styx",
+        name: "Phish Styx",
         species: "Gillfunkle",
         length: "3 big toes",
         diet: "school fish",
