@@ -1,13 +1,15 @@
+// imports the specific 
 import { useFish } from './FishDataProvider.js';
 
 const allTheFish = useFish()
 
 for (const fish of allTheFish) {
     console.log(fish)
+    
 }
 
 
-// for (fish of fishCollection) {
+// for (const fish of fishCollection) {
 //     let fishCard = `<div><img src=${fish.image}></div><ul>`;
 //     fishCard += `<li>Given Name: ${fish.name}</li>`;
 //     fishCard += `<li>Species: ${fish.species}</li>`;

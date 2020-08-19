@@ -433,7 +433,7 @@ const fishCollection = [
         location: "P. Sherman, 42 Wallaby Way, Sydney",
     },
     {
-        image: 'src="images/BlueFish.jpeg"',
+        image: "images/BlueFish.jpeg",
         imageAlt: "Beautiful Blue Fish",
         givenName: "Guppi Goldenberg",
         species: "Pleebon Flounder",
@@ -442,7 +442,7 @@ const fishCollection = [
         harvestLocation: "Over Yonder"
     },
     {
-        image: 'src="images/GreenFish.jpeg"',
+        image: "images/GreenFish.jpeg",
         imageAlt: "Green",
         givenName: "Sushi",
         species: "Male Beta",
@@ -451,7 +451,7 @@ const fishCollection = [
         harvestLocation: "Beaches of Walmart"
     },
     {
-        image: "src='images/NemoFish.jpeg'",
+        image: "images/NemoFish.jpeg",
         imageAlt: "Nemo NOT Touching The Butt",
         givenName: "Nemo",
         species: "Clown Fish",
@@ -460,7 +460,7 @@ const fishCollection = [
         harvestLocation: "42 Wallaby Way, Sydney"
     },
     {
-        image: "src='images/NeonFish.jpeg'",
+        image: "images/NeonFish.jpeg",
         imageAlt: "Party Neon Fish",
         givenName: "James Pond",
         species: "Party Fish",
@@ -469,7 +469,7 @@ const fishCollection = [
         harvestLocation: "Down Under"
     },
     {
-        image: "src='images/PinkFish.jpeg'",
+        image: "images/PinkFish.jpeg",
         imageAlt: "Pretty in Pink Fish",
         givenName: "Ann Chovy",
         species: "Dancing Queen",
@@ -478,7 +478,7 @@ const fishCollection = [
         harvestLocation: "Sandy Castles Resort"
     },
     {
-        image: "src='images/SwayFish.jpeg'",
+        image: "images/SwayFish.jpeg",
         imageAlt: "Sway Fishie",
         givenName: "Phish Styx",
         species: "Gillfunkle",
@@ -548,6 +548,8 @@ const fishCollection = [
     }
 ];
 
+// creates and exports a funcrtion that will return a copy of the original array, using the slice method
+//this is calling the function in the return statment so it returns a copy of the whole array
 export const useFish = () => {
     return fishCollection.slice()
 }
