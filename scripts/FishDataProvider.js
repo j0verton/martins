@@ -433,7 +433,7 @@ const fishCollection = [
         location: "P. Sherman, 42 Wallaby Way, Sydney",
     },
     {
-        image: src='images/BlueFish.jpeg',
+        image: 'src="images/BlueFish.jpeg"',
         imageAlt: "Beautiful Blue Fish",
         givenName: "Guppi Goldenberg",
         species: "Pleebon Flounder",
@@ -442,7 +442,7 @@ const fishCollection = [
         harvestLocation: "Over Yonder"
     },
     {
-        image: src='images/GreenFish.jpeg',
+        image: 'src="images/GreenFish.jpeg"',
         imageAlt: "Green",
         givenName: "Sushi",
         species: "Male Beta",
@@ -451,7 +451,7 @@ const fishCollection = [
         harvestLocation: "Beaches of Walmart"
     },
     {
-        image: src='images/NemoFish.jpeg',
+        image: "src='images/NemoFish.jpeg'",
         imageAlt: "Nemo NOT Touching The Butt",
         givenName: "Nemo",
         species: "Clown Fish",
@@ -460,7 +460,7 @@ const fishCollection = [
         harvestLocation: "42 Wallaby Way, Sydney"
     },
     {
-        image: src='images/NeonFish.jpeg',
+        image: "src='images/NeonFish.jpeg'",
         imageAlt: "Party Neon Fish",
         givenName: "James Pond",
         species: "Party Fish",
@@ -469,7 +469,7 @@ const fishCollection = [
         harvestLocation: "Down Under"
     },
     {
-        image: src='images/PinkFish.jpeg',
+        image: "src='images/PinkFish.jpeg'",
         imageAlt: "Pretty in Pink Fish",
         givenName: "Ann Chovy",
         species: "Dancing Queen",
@@ -478,7 +478,7 @@ const fishCollection = [
         harvestLocation: "Sandy Castles Resort"
     },
     {
-        image: src='images/SwayFish.jpeg',
+        image: "src='images/SwayFish.jpeg'",
         imageAlt: "Sway Fishie",
         givenName: "Phish Styx",
         species: "Gillfunkle",
@@ -546,18 +546,8 @@ const fishCollection = [
         diet: "small fish",
         harvestLocation: "3rd Sea",
     }
-]
+];
 
 export const useFish = () => {
     return fishCollection.slice()
-
-// for (fish of fishCollection) {
-//     let fishCard = `<div><img src=${fish.image}></div><ul>`;
-//     fishCard += `<li>Given Name: ${fish.name}</li>`;
-//     fishCard += `<li>Species: ${fish.species}</li>`;
-//     fishCard += `<li>length: ${fish.length}</li>`;
-//     fishCard += `<li>Diet: ${fish.food}</li>`;
-//     fishCard += `<li>Harvest Location: ${fish.harvestLocation}</li>`;
-//     fishCard += `</ul>`;
-//     return fish,
-// };
+}
