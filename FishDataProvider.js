@@ -17,3 +17,4 @@ for (fish of fishCollection) {
     let fishCard += `<li>Harvest Location: ${fish.harvestLocation}</li>`
     let fishCard += `</ul>`
 }
+
