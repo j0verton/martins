@@ -1,32 +1,29 @@
-export const FishList = () => {
-
-    // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("insert selector here")
-    const fishes = useFish()
-
-    // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-        <article class="fishList">
-            All the fish go here!
-        </article>
-    `
-}
 /**
  *  FishList which renders individual fish objects as HTML
  */
 
-// TODO: Import `useFish` from the data provider module
+//imports the copy of the array
 import {useFish} from './FishDataProvider.js';
+//imports the fish card html generator
+import { Fish } from "./Fish.js"
+
 export const FishList = () => {
-
-    // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector(".fishList")
-    const fishes = useFish()
-
+    //selects the container for the fish cards in the DOM
+    const contentElement = document.querySelector(".fishList");
+    //assigns the copy of the array to a variable inside the function
+    const fishes = useFish();
+    //creates a containter for the HTML
+    let fishHTMLRepresentations = ""
+    //iterates through the copy of the fish array
+    for (const fish of fishes) {
+        //plugs a fish from the array into the fish card html generator 
+        //and adds that fish card html into the html container
+        fishHTMLRepresentations +=Fish(fish);
+    }
     // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-        <article class="fishList">
-            All the fish go here!
-        </article>
-    `
+    contentElement.innerHTML += 
+    `${fishHTMLRepresentations}`
 }
+
+
+

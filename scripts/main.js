@@ -1,19 +1,22 @@
-// imports the specific 
+// imports the copy of the array from FishDataProvider
 import { useFish } from './FishDataProvider.js';
 
+// creates a variable to call up the copy of the array
 const allTheFish = useFish()
 
-for (const fish of allTheFish) {
-    console.log(fish)
+//iterates through the copy of the array and logs the content
+// for (const fish of allTheFish) {
+//     console.log(fish)
     
-}
+// }
 
 // Import the FishList here
-import {FishList} from './FishList.js';
+import { FishList } from './FishList.js';
 
-FishList()
+FishList();
 
-// for (const fish of fishCollection) {
+//let fishHTML ="" 
+//for (const fish of fishCollection) {
 //     let fishCard = `<div><img src=${fish.image}></div><ul>`;
 //     fishCard += `<li>Given Name: ${fish.name}</li>`;
 //     fishCard += `<li>Species: ${fish.species}</li>`;
@@ -21,5 +24,10 @@ FishList()
 //     fishCard += `<li>Diet: ${fish.food}</li>`;
 //     fishCard += `<li>Harvest Location: ${fish.harvestLocation}</li>`;
 //     fishCard += `</ul>`;
-//     return fish,
+//     fishHTML += fishcard;
+//     return fishHTML;
 // };
+//const target = document.querySelector(".fishList");
+//target.innerHTML = fishHTML;
+
+
