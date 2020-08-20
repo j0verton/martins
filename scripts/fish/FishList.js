@@ -7,6 +7,8 @@ import {useFish} from './FishDataProvider.js';
 //imports the fish card html generator
 import { Fish } from "./Fish.js"
 
+//creates and exports the function that iterates through the array of fish with the html generator 
+//and adds each iteration to a variable which is then plugged in to the DOM
 export const FishList = () => {
     //selects the container for the fish cards in the DOM
     const contentElement = document.querySelector(".fishList");
