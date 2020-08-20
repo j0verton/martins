@@ -61,7 +61,7 @@ const fishCollection = [
         species: "New Jersey Gutter Fish",
         length: "1 inch",
         diet: "Creatine",
-        harvestLoc: "New Jersey",
+        harvestLocation: "New Jersey",
     },
     {
         image:"fish6.jpg",
@@ -69,7 +69,7 @@ const fishCollection = [
         name: "Diamond",
         length: "6 in",
         diet: "Algae Strips",
-        havestLocation: "South Africa",
+        harvestLocation: "South Africa",
     },
     {
         image:"fish7.jpg",
@@ -77,7 +77,7 @@ const fishCollection = [
         name: "Midnight",
         length: "1 inch",
         diet: "Vegetation",
-        havestLocation: "Croatia",
+        harvestLocation: "Croatia",
     },
     {
         image:"fish8.jpg",
@@ -85,7 +85,7 @@ const fishCollection = [
         name: "Itchy",
         length: "7 ft",
         diet: "Micronutrients",
-        havestLocation: "Blue Hole"
+        harvestLocation: "Blue Hole"
     },
     {
         image:"fish9.jpg",
@@ -93,7 +93,7 @@ const fishCollection = [
         name: "Cherry",
         length: "3 cm",
         diet: "Algae",
-        havestLocation: "Brazil"
+        harvestLocation: "Brazil"
     },
     {
         image:"fish10.jpg",
@@ -101,7 +101,7 @@ const fishCollection = [
         name: "Rainbow",
         length: "2 ft",
         diet: "Fish pellets",
-        havestLocation: "South Africa"
+        harvestLocation: "South Africa"
     },
     {
         image:"fish11.jpg",
@@ -109,7 +109,7 @@ const fishCollection = [
         name: "Banana Stripe",
         length: "11 cm",
         diet: "Micronutrients",
-        havestLocation: "Antiqua"
+        harvestLocation: "Antiqua"
     },
     {
         image:"fish12.jpg",
@@ -117,7 +117,7 @@ const fishCollection = [
         name: "Squigy",
         length: "1 ft",
         diet: "Algae",
-        havestLocation: "Bahamas"
+        harvestLocation: "Bahamas"
     },
     {
         image:"fish13.jpg",
@@ -181,7 +181,7 @@ const fishCollection = [
         length: 15,
         diet: "Fish Food",
         name: "Lockes",
-        harvest: "Wally World",
+        harvestLocation: "Wally World",
     },
     {
         image:"fish21.jpg",
@@ -189,7 +189,7 @@ const fishCollection = [
         length: 44,
         diet: "Fish Food",
         name: "Treant",
-        harvest: "Lake Canada",
+        harvestLocation: "Lake Canada",
     },
 ];
 

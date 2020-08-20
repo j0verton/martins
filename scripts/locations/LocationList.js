@@ -13,7 +13,6 @@ export const locationListCreator = () => {
     const harvestLocationCopy = harvestLocationCopier();
     let locationListHTML = "";
     for (const location of harvestLocationCopy) {
-        console.log(location.location)
         locationListHTML += locationHTMLGenerator(location);
     }
     const locationListTarget = document.querySelector(".places");

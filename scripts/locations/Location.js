@@ -1,7 +1,7 @@
 export const locationHTMLGenerator = (location) => {
     return `
-    <div class="harvest-location">
-        ${location.location}
-    </div>`
+    <li class="harvest-location">
+        ${location.harvestLocation}
+    </li>`
      
 }
