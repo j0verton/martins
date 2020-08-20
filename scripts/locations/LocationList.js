@@ -1,5 +1,5 @@
 //import function to create a copy of the location array
-import {harvestLocationCopier} from './LocationDataProvider.js'
+import {harvestLocationCopier} from './LocationDataProvider.js';
 //import function to generate html for the location list
 import {locationHTMLgenerator} from './Location.js'
 
