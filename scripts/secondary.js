@@ -1,4 +1,4 @@
-import harvestLocationCopier from './locations/LocationDataProvider.js'
+import { harvestLocationCopier } from './locations/LocationDataProvider.js';
 
 const harvestLocationCopy = harvestLocationCopier();
 

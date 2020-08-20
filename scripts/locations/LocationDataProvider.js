@@ -1,15 +1,15 @@
 const martinsHarvestLocations = [
     {
-        location: "Tahiti"
+        location: "Tahiti",
     },
     {
-        location: "Hawaii"
+        location: "Hawaii",
     },
     {
-        location: "Naples, Florida"
+        location: "Naples, Florida",
     },
     {
-        location: "Costa Rica"
+        location: "Costa Rica",
     }
 ]
 
