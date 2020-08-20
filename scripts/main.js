@@ -21,10 +21,10 @@ createTipList();
 
 
 
-import { harvestLocationCopier } from './locations/LocationDataProvider.js';
+// import { harvestLocationCopier } from './locations/LocationDataProvider.js';
 
-const harvestLocationCopy = harvestLocationCopier();
+// const harvestLocationCopy = harvestLocationCopier();
 
-import { locationListCreator } from './locations/LocationList.js';
+// import { locationListCreator } from './locations/LocationList.js';
 
-locationListCreator();
+// locationListCreator();

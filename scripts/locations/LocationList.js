@@ -1,7 +1,7 @@
 //import function to create a copy of the location array
 import {harvestLocationCopier} from './LocationDataProvider.js';
 //import function to generate html for the location list
-import {locationHTMLgenerator} from './Location.js';
+import {locationHTMLGenerator} from './Location.js';
 
 //create&export function to...
 //call the function to create a copy of the location array and store it in a variable
@@ -12,9 +12,9 @@ import {locationHTMLgenerator} from './Location.js';
 export const locationListCreator = () => {
     const harvestLocationCopy = harvestLocationCopier();
     let locationListHTML = "";
-    for (const locations of harvestLocationCopy) {
-        console.log(locations.location)
-        locationListHTML += locationHTMLgenerator(locations);
+    for (const location of harvestLocationCopy) {
+        console.log(location.location)
+        locationListHTML += locationHTMLGenerator(location);
     }
     const locationListTarget = document.querySelector(".places");
     locationListTarget.innerHTML += `${locationListHTML}`;
