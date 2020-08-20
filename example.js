@@ -1,6 +1,6 @@
-const logMe = (animal) => {
-    console.log(animal)
-}
+// const logMe = (animal) => {
+//     console.log(animal)
+// }
 
 //let fishHTML ="" 
 //for (const fish of fishCollection) {
