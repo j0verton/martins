@@ -3,7 +3,7 @@ const fishCollection = [
         image:"bluefish.jpg",
         name: "Big Blue",
         species: "Male Beta",
-        length: "2 inches",
+        length: 2,
         diet: "Flies",
         harvestLocation: "the Islands",
     },
@@ -11,7 +11,7 @@ const fishCollection = [
         image:"orangefish.jpg",
         name: "Medium Orange",
         species: "Female Beta",
-        length: "4 inches",
+        length: 4,
         diet: "Sea Bugs",
         harvestLocation: "Tahiti"
     },
@@ -19,14 +19,14 @@ const fishCollection = [
         image:"yellowbluefish.jpg",
         name: "Bart",
         species: "Simpsonius",
-        length: "5 inches",
+        length: 5,
         diet: "crustaceans",
         harvestLocation: "Springfield"
 	},
 	{
         image:"fish1.jpg",
         name: "Big Mac",
-		length: "6 feet",
+		length: 6,
 		diet: "jellyfish",
 		species: "Giant sunfish",
 		harvestLocation: "Sam's Club Reef"
@@ -34,7 +34,7 @@ const fishCollection = [
 	{
         image:"fish2.jpg",
 		name: "Squigle",
-		length: "2 feet",
+		length: 2,
 		diet: "smaller fish",
 		species: "Moray Eel",
 		harvestLocation: "Ole Dan's boat wreck"
@@ -42,7 +42,7 @@ const fishCollection = [
 	{
         image:"fish3.jpg",
 		name: "Hammy",
-		length: "4 feet",
+		length: 4,
 		diet: "just about everything",
 		species: "Groupers",
 		harvestLocation: "Jimmy's big boi fishin' spot"
@@ -50,7 +50,7 @@ const fishCollection = [
 	{
         image:"fish4.jpg",
 		name: "Tiny",
-		length: "1 inch",
+		length: 1,
 		diet: "plankton",
 		species: "Blue Chromis",
 		harvestLocation: "Young Dan's boat wreck",
@@ -59,7 +59,7 @@ const fishCollection = [
         image:"fish5.jpg",
         name: "The Situation",
         species: "New Jersey Gutter Fish",
-        length: "1 inch",
+        length: 1,
         diet: "Creatine",
         harvestLocation: "New Jersey",
     },
@@ -67,7 +67,7 @@ const fishCollection = [
         image:"fish6.jpg",
         species: "Gem Tang",
         name: "Diamond",
-        length: "6 in",
+        length: 6,
         diet: "Algae Strips",
         harvestLocation: "South Africa",
     },
@@ -75,7 +75,7 @@ const fishCollection = [
         image:"fish7.jpg",
         species: "Black Tang",
         name: "Midnight",
-        length: "1 inch",
+        length: 1,
         diet: "Vegetation",
         harvestLocation: "Croatia",
     },
@@ -83,7 +83,7 @@ const fishCollection = [
         image:"fish8.jpg",
         species: "Crosshatch Triggerfish",
         name: "Itchy",
-        length: "7 ft",
+        length: 7,
         diet: "Micronutrients",
         harvestLocation: "Blue Hole"
     },
@@ -91,7 +91,7 @@ const fishCollection = [
         image:"fish9.jpg",
         species: "Candy Basslet",
         name: "Cherry",
-        length: "3 cm",
+        length: 3,
         diet: "Algae",
         harvestLocation: "Brazil"
     },
@@ -99,7 +99,7 @@ const fishCollection = [
         image:"fish10.jpg",
         species: "Japanese Interruptus Angelfish",
         name: "Rainbow",
-        length: "2 ft",
+        length: 2,
         diet: "Fish pellets",
         harvestLocation: "South Africa"
     },
@@ -107,7 +107,7 @@ const fishCollection = [
         image:"fish11.jpg",
         species: "Clarion Angelfish",
         name: "Banana Stripe",
-        length: "11 cm",
+        length: 11,
         diet: "Micronutrients",
         harvestLocation: "Antiqua"
     },
@@ -115,7 +115,7 @@ const fishCollection = [
         image:"fish12.jpg",
         species: "Neptune Grouper",
         name: "Squigy",
-        length: "1 ft",
+        length: 12,
         diet: "Algae",
         harvestLocation: "Bahamas"
     },
@@ -123,7 +123,7 @@ const fishCollection = [
         image:"fish13.jpg",
         name: "Nemo",
         species: "Clownfish",
-        length: "1.5 inches",
+        length: 1.5,
         diet: "Copepods",
         harvestLocation: "Orlando, FL"
     },
@@ -131,7 +131,7 @@ const fishCollection = [
         image:"fish14.jpg",
         name: "Torch",
         species: "Flame Angelfish",
-        length: "3 inches",
+        length: 3,
         diet: "Mealworms",
         harvestLocation: "San Jose, CA"
     },
@@ -139,7 +139,7 @@ const fishCollection = [
         image:"fish15.jpg",
         name: "Rocky",
         species: "Blue Damselfish",
-        length: "2 inches",
+        length: 2,
         diet: "Copepods",
         harvestLocation: "Destin, FL"
     },
@@ -147,7 +147,7 @@ const fishCollection = [
         image:"fish16.jpg",
         name: "Rudy",
         species: "Copperband Butterflyfish",
-        length: "5 inches",
+        length: 5,
         diet: "Mealworms",
         harvestLocation: "Costa Rica"
     },
@@ -155,7 +155,7 @@ const fishCollection = [
         image:"fish17.jpg",
         name: "Simba",
         species: "Lionfish",
-        length: "6 inches",
+        length: 6,
         diet: "Mealworms",
         harvestLocation: "Argentina"
     },
@@ -163,7 +163,7 @@ const fishCollection = [
         image:"fish18.jpg",
         name: "Mr. Freeze",
         species: "Blue Tang",
-        length: "6 inches",
+        length: 6,
         diet: "Mealworms",
         harvestLocation: "Costa Rica"
     },
@@ -171,7 +171,7 @@ const fishCollection = [
         image:"fish19.jpg",
         name: "Frodo",
         species: "Yellow Tang",
-        length: "4 inches",
+        length: 4,
         diet: "Mealworms",
         harvestLocation: "Honolulu, HI"
     },
@@ -198,3 +198,14 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+export const sortTheMostHolyFish = () => {
+    // sort out the fish that are multiples of 3
+    const mostHolyFishArray = [];
+    for (const fish of fishCollection) {
+        if(fish.length % 3 === 0) {
+            mostHolyFishArray.push(fish);
+        }
+    }
+    console.log(mostHolyFishArray);
+  }

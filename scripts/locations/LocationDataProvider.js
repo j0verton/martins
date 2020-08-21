@@ -38,3 +38,5 @@ export const harvestLocationCopier = () => {
 
     return harvestLocations.slice();
 }
+
+
