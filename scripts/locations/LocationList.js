@@ -11,8 +11,13 @@ import {locationHTMLGenerator} from './Location.js';
 //create a variable to target location for HTML
 export const locationListCreator = () => {
     const harvestLocationCopy = harvestLocationCopier();
+    
+    //figure out how to sort the array alpabetically
+    const alphaLocations = harvestLocationCopy.sort(function(a, b){
+        return a.harvestLocation-b.harvestLocation;
+    })
     let locationListHTML = "";
-    for (const location of harvestLocationCopy) {
+    for (const location of alphaLocations) {
         locationListHTML += locationHTMLGenerator(location);
     }
     const locationListTarget = document.querySelector(".places");
