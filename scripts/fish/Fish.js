@@ -3,7 +3,7 @@
 
 export const Fish = (fish) => {
     return `
-    <div class="fishList-card">
+    <div class="fishList-card ${fish.worth}">
         <div class="card-image">
             <img class="fish-image"src="images/${fish.image}" alt="a picture of ${fish.name} the ${fish.species}"/>
         </div>

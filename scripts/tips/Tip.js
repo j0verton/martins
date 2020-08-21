@@ -2,7 +2,7 @@
 
 export const TipHTMLGenerator = (tip, num) => {
     return `
-    <div class="tipcard">tip number ${num}<br>${tip.tip}</div>
+    <div class="tipcard"><small>tip number ${num}</small><br>${tip.tip}</div>
     `
 }
 

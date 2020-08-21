@@ -202,10 +202,42 @@ export const useFish = () => {
 export const sortTheMostHolyFish = () => {
     // sort out the fish that are multiples of 3
     const mostHolyFishArray = [];
+    // const soldierFishArray = [];
+    // const unworthyFishArray = []
     for (const fish of fishCollection) {
         if(fish.length % 3 === 0) {
+            fish.worth = "most-holy"
             mostHolyFishArray.push(fish);
+        // } else if (fish.length % 5 === 0) {
+        //     soldierFish.push(fish);
+        // } else {
+        //     unworthyFishArray.push(fish);
         }
     }
-    console.log(mostHolyFishArray);
+    return mostHolyFishArray
+    // console.log(mostHolyFishArray)
   }
+
+export const sortSoldierFish = () => {
+    const soldierArray = []
+    for (const fish of fishCollection) {  
+        if (fish.length %5===0 && fish.length%3 !==0){
+            fish.worth = "soldier"
+            soldierArray.push(fish)
+        }
+    }
+    return soldierArray
+    // console.log(soldierArray)
+}
+
+export const sortUnworthyFish = () => {
+    const unworthyArray = []
+    for (const fish of fishCollection) {  
+        if (fish.length %5 !==0 && fish.length%3 !==0){
+            fish.worth = "unworthy"
+            unworthyArray.push(fish);
+        }
+    }
+    return unworthyArray
+    // console.log(unworthyArray)
+}

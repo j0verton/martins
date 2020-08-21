@@ -1,8 +1,8 @@
 // imports the copy of the array from FishDataProvider
-import { useFish, sortTheMostHolyFish } from './fish/FishDataProvider.js';
+import { useFish, sortTheMostHolyFish, sortSoldierFish, sortUnworthyFish } from './fish/FishDataProvider.js';
 
 // creates a variable to call up the copy of the array
-const allTheFish = useFish();
+// const allTheFish = useFish();
 
 // Import the FishList here
 import { FishList } from './fish/FishList.js';
@@ -28,4 +28,6 @@ createTipList();
 // import { locationListCreator } from './locations/LocationList.js';
 
 // locationListCreator();
-sortTheMostHolyFish();
+// sortTheMostHolyFish();
+// sortSoldierFish();
+// sortUnworthyFish();
