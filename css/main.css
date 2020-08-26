@@ -24,11 +24,15 @@ body {
 }
 
 .fishList-card {
-    margin: 1em;
+    margin: 2em;
     background-color: chartreuse;
     flex-basis: 25%;
+    
 }
 
+.fishList-card:hover {
+    transform: scale(1.2);
+}
 .fish-image {
     width: 100%;
     height: auto;
@@ -39,6 +43,43 @@ body {
 
 }
 aside {
+    
     flex: 1;
     background-color: cadetblue;
+    align-content: space-around;
+}
+.tips-container {
+    display:flex;
+    flex-direction: column;
+
+}
+.tipcard {
+    border: darkslategrey dotted 2px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.most-holy {
+    background-image: radial-gradient(red, green, blue);
+    color: white;
+}
+.soldier {
+    background-color: lightgreen}
+
+.unworthy {
+    background-color: black;
+    color: slategrey;
+    opacity: 30%;
+}
+
+.quotes {
+    padding: 10px;
+    background-image: radial-gradient(red, green, blue);
+}
+
+
+strong {
+    color: white;
+    text-shadow: darkorange  ;
 }
