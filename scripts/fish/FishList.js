@@ -30,7 +30,7 @@ import { Fish } from "./Fish.js"
 export const FishList = () => {
 
     const addFishToDom = (whichFishArray) => {
-        console.log(whichFishArray)
+        // console.log(whichFishArray)
         const contentElement = document.querySelector(".fishList");
         let fishHTMLRepresentations = ""
         for (const fish of whichFishArray) {
@@ -41,7 +41,7 @@ export const FishList = () => {
     
     };
     const holyFish = sortTheMostHolyFish();
-    console.log(holyFish)
+    // console.log(holyFish)
     addFishToDom(holyFish);
     const soldierFish = sortSoldierFish();
     addFishToDom(soldierFish);
