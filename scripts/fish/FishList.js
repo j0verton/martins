@@ -33,11 +33,13 @@ export const FishList = () => {
         // console.log(whichFishArray)
         const contentElement = document.querySelector(".fishList");
         let fishHTMLRepresentations = ""
-        for (const fish of whichFishArray) {
-            fishHTMLRepresentations +=Fish(fish);
-        }
+        
+        // for (const fish of whichFishArray) {
+        //     fishHTMLRepresentations +=Fish(fish);
+        // }
+        //refactored to use a for loop
         contentElement.innerHTML += 
-        `${fishHTMLRepresentations}`
+        `${whichFishArray.map(fish => Fish(fish)).join('')}`
     
     };
     const holyFish = sortTheMostHolyFish();

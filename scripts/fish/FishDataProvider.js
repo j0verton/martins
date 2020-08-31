@@ -20,7 +20,7 @@ const fishCollection = [
         name: "Bart",
         species: "Simpsonius",
         length: 5,
-        diet: "crustaceans",
+        diet: "My Shorts",
         harvestLocation: "Springfield"
 	},
 	{
@@ -28,7 +28,7 @@ const fishCollection = [
         name: "Big Mac",
 		length: 6,
 		diet: "jellyfish",
-		species: "Giant sunfish",
+		species: "Giant Sunfish",
 		harvestLocation: "Sam's Club Reef"
 	},
 	{
@@ -54,14 +54,6 @@ const fishCollection = [
 		diet: "plankton",
 		species: "Blue Chromis",
 		harvestLocation: "Young Dan's boat wreck",
-    },
-    {
-        image:"fish5.jpg",
-        name: "The Situation",
-        species: "New Jersey Gutter Fish",
-        length: 1,
-        diet: "Creatine",
-        harvestLocation: "New Jersey",
     },
     {
         image:"fish6.jpg",
@@ -202,20 +194,13 @@ export const useFish = () => {
 export const sortTheMostHolyFish = () => {
     // sort out the fish that are multiples of 3
     const mostHolyFishArray = [];
-    // const soldierFishArray = [];
-    // const unworthyFishArray = []
     for (const fish of fishCollection) {
         if(fish.length % 3 === 0) {
             fish.worth = "most-holy"
             mostHolyFishArray.push(fish);
-        // } else if (fish.length % 5 === 0) {
-        //     soldierFish.push(fish);
-        // } else {
-        //     unworthyFishArray.push(fish);
         }
     }
     return mostHolyFishArray
-    // console.log(mostHolyFishArray)
   }
 
 export const sortSoldierFish = () => {
@@ -227,7 +212,6 @@ export const sortSoldierFish = () => {
         }
     }
     return soldierArray
-    // console.log(soldierArray)
 }
 
 export const sortUnworthyFish = () => {
@@ -239,5 +223,4 @@ export const sortUnworthyFish = () => {
         }
     }
     return unworthyArray
-    // console.log(unworthyArray)
 }

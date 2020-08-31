@@ -9,14 +9,10 @@ import { TipHTMLGenerator } from './Tip.js'
 //append each iteration the variable for containing a string of HTML (or a template literal)
 //select a DOM target, 
 //plug the variable with the generated HTML into the DOM target
+
+//refactored to use .map rather than a for..of loop
 export const createTipList = () => {
-    let tipHTMLProduct = ""
     const TipArrayCopy = TipArrayCopier()
-    for (let i=0;  i< TipArrayCopy.length; i++) {
-        // tipNum will hold index position plus 1 to define tip number for counting 
-        let tipNum = i+1
-        tipHTMLProduct += TipHTMLGenerator(TipArrayCopy[i], tipNum);
-    }
     const tipListDOMTarget = document.querySelector('#tips-container');
-    tipListDOMTarget.innerHTML += `${tipHTMLProduct}`;
+    tipListDOMTarget.innerHTML += `${TipArrayCopy.map(tip => TipHTMLGenerator(tip, TipArrayCopy.indexOf(tip)+1)).join('')}`;
 }

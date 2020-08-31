@@ -15,11 +15,9 @@ export const locationListCreator = () => {
     //figure out how to sort the array alpabetically
     const alphaLocations = harvestLocationCopy.sort(function(a, b){
         return a.harvestLocation-b.harvestLocation;
-    })
-    let locationListHTML = "";
-    for (const location of alphaLocations) {
-        locationListHTML += locationHTMLGenerator(location);
-    }
+    })    
+    //refactored to use .map rather than a for..of loop
     const locationListTarget = document.querySelector(".places");
-    locationListTarget.innerHTML += `${locationListHTML}`;
+    locationListTarget.innerHTML += `${alphaLocations.map(location => locationHTMLGenerator(location)).join('')}`
 }
+    
