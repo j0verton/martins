@@ -30,7 +30,7 @@ body {
     
 }
 
-.fishList-card:hover {
+.most-holy:hover {
     transform: scale(1.2);
 }
 .fish-image {
@@ -72,6 +72,8 @@ aside {
     color: slategrey;
     opacity: 30%;
 }
+.unworthy:hover {
+    transform: scale(.5);
 
 .quotes {
     padding: 10px;
